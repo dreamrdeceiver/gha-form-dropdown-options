@@ -1051,17 +1051,7 @@ body:
         - '#1'
     validations:
       required: true
-  - type: dropdown
-    id: year_end
-    attributes:
-      label: Updating in a PR
-      description: >-
-        [Creating a
-        PR](https://github.com/ShaMan123/gha-form-dropdown-options#creating-a-pr)
-      options:
-        - 
-    validations:
-      required: true
+ 
   - type: dropdown
     id: _subs
     attributes:
