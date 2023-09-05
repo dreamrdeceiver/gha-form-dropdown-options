@@ -13,7 +13,6 @@ body:
       description: By submitting this issue, you agree to follow our [Code of Conduct]()
       options:
         - label: I agree to follow this project's Code of Conduct
-          required: true
   - type: dropdown
     id: _branches
     attributes:
@@ -24,8 +23,7 @@ body:
         - main
         - safeguard
         - set-output
-    validations:
-      required: true
+    
   - type: dropdown
     id: _labels
     attributes:
@@ -43,8 +41,7 @@ body:
         - invalid
         - question
         - wontfix
-    validations:
-      required: true
+    
   - type: dropdown
     id: _dates
     attributes:
@@ -58,8 +55,7 @@ body:
         - 2023-9-16
         - 2023-9-17
         - 2023-9-18
-    validations:
-      required: true
+    
   - type: textarea
     id: steps
     attributes:
@@ -68,21 +64,18 @@ body:
         1. 
         2. 
         3.
-    validations:
-      required: true
+    
   - type: textarea
     id: expected
     attributes:
       label: Expected Behavior
-    validations:
-      required: true
+    
   - type: textarea
     id: actual
     attributes:
       label: Actual Behavior
       description: Provide screenshots/screencasts if relevant
-    validations:
-      required: true
+    
   - type: textarea
     id: error
     attributes:
